@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistroActivity">
+
+    <EditText
+        android:id="@+id/et_create_dni"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:hint="@string/s_create_et_dni"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/et_create_name"
+        app:layout_constraintEnd_toEndOf="@+id/et_create_name"
+        app:layout_constraintStart_toStartOf="@+id/et_create_name"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <EditText
+        android:id="@+id/et_create_name"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="27dp"
+        android:ems="10"
+        android:hint="@string/s_create_et_name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/et_create_pass"
+        app:layout_constraintEnd_toEndOf="@+id/et_create_pass2"
+        app:layout_constraintStart_toStartOf="@+id/et_create_pass2"
+        app:layout_constraintTop_toBottomOf="@+id/et_create_dni" />
+
+    <EditText
+        android:id="@+id/et_create_pass"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="27dp"
+        android:ems="10"
+        android:hint="@string/s_create_et_pass"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/et_create_pass2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_create_name" />
+
+    <EditText
+        android:id="@+id/et_create_pass2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="29dp"
+        android:ems="10"
+        android:hint="@string/s_create_et_pass2"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/bt_create_create"
+        app:layout_constraintEnd_toEndOf="@+id/bt_create_create"
+        app:layout_constraintStart_toStartOf="@+id/bt_create_create"
+        app:layout_constraintTop_toBottomOf="@+id/et_create_pass" />
+
+    <Button
+        android:id="@+id/bt_create_create"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="250dp"
+        android:text="@string/s_create_bt_create"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_create_pass2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginBottom="47dp"
+        android:text="@string/s_create_tv_title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/et_create_dni"
+        app:layout_constraintStart_toStartOf="@+id/et_create_dni"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

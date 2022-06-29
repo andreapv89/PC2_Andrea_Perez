@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "52387289046",
+    "project_id": "esanpc2",
+    "storage_bucket": "esanpc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52387289046:android:8b4024de7d5835a449f677",
+        "android_client_info": {
+          "package_name": "com.esan.pc2_andrea_perez"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52387289046-fcaq2jsqjgqvufm9ai0l4thdjj9rohjc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtcdmPh3Ts-4a-1avON1u6tU2IUSY8QMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52387289046-fcaq2jsqjgqvufm9ai0l4thdjj9rohjc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

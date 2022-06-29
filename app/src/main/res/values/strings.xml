@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PC2_Andrea_Perez</string>
+
+    <!--    Login-->
+    <string name="s_login_tv_title">INICIAR SESIÓN</string>
+    <string name="s_login_et_dni">Ingrese su dni</string>
+    <string name="s_login_et_pass">Ingrese su clave</string>
+    <string name="s_login_bt_login">INGRESAR</string>
+    <string name="s_login_bt_create">CREAR UNA CUENTA</string>
+
+    <!--    Create User-->
+    <string name="s_create_tv_title">CREAR UNA CUENTA</string>
+    <string name="s_create_et_dni">Ingrese su DNI</string>
+    <string name="s_create_et_name">Ingrese su nombre completo</string>
+    <string name="s_create_et_pass">Ingrese su clave</string>
+    <string name="s_create_et_pass2">Ingrese nuevamente su clave</string>
+    <string name="s_create_bt_create">REGISTRAR CUENTA</string>
+
+</resources>
